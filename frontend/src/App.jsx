@@ -9,7 +9,7 @@ function App() {
   const [hasMore, setHasMore] = useState(true);
   const limit = 3;
 
-  const host = "http://127.0.0.1:8000"
+  const host = "http://localhost:8001"
 
   const loadEvents = async (pageToLoad) => {
     setLoading(true);
