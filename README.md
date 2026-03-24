@@ -19,6 +19,7 @@ A simple full-stack **Events Listing App** built with:
 
 ---
 
+
 ## 📁 Project Structure
 
 stellantis_test/
