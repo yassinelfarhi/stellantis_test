@@ -1,16 +1,53 @@
-# React + Vite
+# 🚀 Events App (React + Vite + FastAPI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack events application built with **React (Vite)** on the frontend and **FastAPI** on the backend.  
+It demonstrates **pagination, load more functionality, API integration backend design**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# ✨ Features
 
-## React Compiler
+- 📄 Display events from API
+- 🔄 Load More pagination (offset-based)
+- ⚡ Fast API integration using Axios
+- 🎯 Duplicate-safe rendering in React
+- 🧩 Clean component structure (EventCard)
+- 🌐 CORS-enabled backend support
+- ⚡ Optimized API calls with pagination
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# 🧱 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Frontend
+- React
+- Vite
+- Axios
+- Bootstrap
+
+## Backend
+- FastAPI
+- Python
+- In-memory data store
+
+---
+
+
+---
+
+# 🚀 Getting Started
+
+## 1. Clone repository
+
+```bash
+
+git clone https://github.com/yassinelfarhi/stellantis_test.git
+cd stellantis_test
+docker-compose up --build
+
+### 2 .Access the app
+Service	URL
+Frontend	http://localhost:3000
+Backend	http://localhost:8001
+
+
